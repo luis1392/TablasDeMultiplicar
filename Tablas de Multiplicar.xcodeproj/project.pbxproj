@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A038131C1D8FAA3F00326473 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A038131B1D8FAA3F00326473 /* AppDelegate.swift */; };
+		A038131E1D8FAA3F00326473 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A038131D1D8FAA3F00326473 /* ViewController.swift */; };
+		A03813211D8FAA3F00326473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A038131F1D8FAA3F00326473 /* Main.storyboard */; };
+		A03813231D8FAA3F00326473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03813221D8FAA3F00326473 /* Assets.xcassets */; };
+		A03813261D8FAA3F00326473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03813241D8FAA3F00326473 /* LaunchScreen.storyboard */; };
+		A03813311D8FAA3F00326473 /* Tablas_de_MultiplicarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03813301D8FAA3F00326473 /* Tablas_de_MultiplicarTests.swift */; };
+		A038133C1D8FAA3F00326473 /* Tablas_de_MultiplicarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A038133B1D8FAA3F00326473 /* Tablas_de_MultiplicarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A038132D1D8FAA3F00326473 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A03813101D8FAA3F00326473 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A03813171D8FAA3F00326473;
+			remoteInfo = "Tablas de Multiplicar";
+		};
+		A03813381D8FAA3F00326473 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A03813101D8FAA3F00326473 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A03813171D8FAA3F00326473;
+			remoteInfo = "Tablas de Multiplicar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A03813181D8FAA3F00326473 /* Tablas de Multiplicar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tablas de Multiplicar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A038131B1D8FAA3F00326473 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A038131D1D8FAA3F00326473 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A03813201D8FAA3F00326473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A03813221D8FAA3F00326473 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A03813251D8FAA3F00326473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A03813271D8FAA3F00326473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A038132C1D8FAA3F00326473 /* Tablas de MultiplicarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tablas de MultiplicarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03813301D8FAA3F00326473 /* Tablas_de_MultiplicarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tablas_de_MultiplicarTests.swift; sourceTree = "<group>"; };
+		A03813321D8FAA3F00326473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A03813371D8FAA3F00326473 /* Tablas de MultiplicarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tablas de MultiplicarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A038133B1D8FAA3F00326473 /* Tablas_de_MultiplicarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tablas_de_MultiplicarUITests.swift; sourceTree = "<group>"; };
+		A038133D1D8FAA3F00326473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A03813151D8FAA3F00326473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03813291D8FAA3F00326473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03813341D8FAA3F00326473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A038130F1D8FAA3F00326473 = {
+			isa = PBXGroup;
+			children = (
+				A038131A1D8FAA3F00326473 /* Tablas de Multiplicar */,
+				A038132F1D8FAA3F00326473 /* Tablas de MultiplicarTests */,
+				A038133A1D8FAA3F00326473 /* Tablas de MultiplicarUITests */,
+				A03813191D8FAA3F00326473 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A03813191D8FAA3F00326473 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A03813181D8FAA3F00326473 /* Tablas de Multiplicar.app */,
+				A038132C1D8FAA3F00326473 /* Tablas de MultiplicarTests.xctest */,
+				A03813371D8FAA3F00326473 /* Tablas de MultiplicarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A038131A1D8FAA3F00326473 /* Tablas de Multiplicar */ = {
+			isa = PBXGroup;
+			children = (
+				A038131B1D8FAA3F00326473 /* AppDelegate.swift */,
+				A038131D1D8FAA3F00326473 /* ViewController.swift */,
+				A038131F1D8FAA3F00326473 /* Main.storyboard */,
+				A03813221D8FAA3F00326473 /* Assets.xcassets */,
+				A03813241D8FAA3F00326473 /* LaunchScreen.storyboard */,
+				A03813271D8FAA3F00326473 /* Info.plist */,
+			);
+			path = "Tablas de Multiplicar";
+			sourceTree = "<group>";
+		};
+		A038132F1D8FAA3F00326473 /* Tablas de MultiplicarTests */ = {
+			isa = PBXGroup;
+			children = (
+				A03813301D8FAA3F00326473 /* Tablas_de_MultiplicarTests.swift */,
+				A03813321D8FAA3F00326473 /* Info.plist */,
+			);
+			path = "Tablas de MultiplicarTests";
+			sourceTree = "<group>";
+		};
+		A038133A1D8FAA3F00326473 /* Tablas de MultiplicarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A038133B1D8FAA3F00326473 /* Tablas_de_MultiplicarUITests.swift */,
+				A038133D1D8FAA3F00326473 /* Info.plist */,
+			);
+			path = "Tablas de MultiplicarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A03813171D8FAA3F00326473 /* Tablas de Multiplicar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A03813401D8FAA3F00326473 /* Build configuration list for PBXNativeTarget "Tablas de Multiplicar" */;
+			buildPhases = (
+				A03813141D8FAA3F00326473 /* Sources */,
+				A03813151D8FAA3F00326473 /* Frameworks */,
+				A03813161D8FAA3F00326473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tablas de Multiplicar";
+			productName = "Tablas de Multiplicar";
+			productReference = A03813181D8FAA3F00326473 /* Tablas de Multiplicar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A038132B1D8FAA3F00326473 /* Tablas de MultiplicarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A03813431D8FAA3F00326473 /* Build configuration list for PBXNativeTarget "Tablas de MultiplicarTests" */;
+			buildPhases = (
+				A03813281D8FAA3F00326473 /* Sources */,
+				A03813291D8FAA3F00326473 /* Frameworks */,
+				A038132A1D8FAA3F00326473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A038132E1D8FAA3F00326473 /* PBXTargetDependency */,
+			);
+			name = "Tablas de MultiplicarTests";
+			productName = "Tablas de MultiplicarTests";
+			productReference = A038132C1D8FAA3F00326473 /* Tablas de MultiplicarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A03813361D8FAA3F00326473 /* Tablas de MultiplicarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A03813461D8FAA3F00326473 /* Build configuration list for PBXNativeTarget "Tablas de MultiplicarUITests" */;
+			buildPhases = (
+				A03813331D8FAA3F00326473 /* Sources */,
+				A03813341D8FAA3F00326473 /* Frameworks */,
+				A03813351D8FAA3F00326473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A03813391D8FAA3F00326473 /* PBXTargetDependency */,
+			);
+			name = "Tablas de MultiplicarUITests";
+			productName = "Tablas de MultiplicarUITests";
+			productReference = A03813371D8FAA3F00326473 /* Tablas de MultiplicarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A03813101D8FAA3F00326473 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Luis Enrique Tierrafria Rodriguez";
+				TargetAttributes = {
+					A03813171D8FAA3F00326473 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					A038132B1D8FAA3F00326473 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A03813171D8FAA3F00326473;
+					};
+					A03813361D8FAA3F00326473 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A03813171D8FAA3F00326473;
+					};
+				};
+			};
+			buildConfigurationList = A03813131D8FAA3F00326473 /* Build configuration list for PBXProject "Tablas de Multiplicar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A038130F1D8FAA3F00326473;
+			productRefGroup = A03813191D8FAA3F00326473 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A03813171D8FAA3F00326473 /* Tablas de Multiplicar */,
+				A038132B1D8FAA3F00326473 /* Tablas de MultiplicarTests */,
+				A03813361D8FAA3F00326473 /* Tablas de MultiplicarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A03813161D8FAA3F00326473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03813261D8FAA3F00326473 /* LaunchScreen.storyboard in Resources */,
+				A03813231D8FAA3F00326473 /* Assets.xcassets in Resources */,
+				A03813211D8FAA3F00326473 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A038132A1D8FAA3F00326473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03813351D8FAA3F00326473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A03813141D8FAA3F00326473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A038131E1D8FAA3F00326473 /* ViewController.swift in Sources */,
+				A038131C1D8FAA3F00326473 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03813281D8FAA3F00326473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03813311D8FAA3F00326473 /* Tablas_de_MultiplicarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03813331D8FAA3F00326473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A038133C1D8FAA3F00326473 /* Tablas_de_MultiplicarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A038132E1D8FAA3F00326473 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A03813171D8FAA3F00326473 /* Tablas de Multiplicar */;
+			targetProxy = A038132D1D8FAA3F00326473 /* PBXContainerItemProxy */;
+		};
+		A03813391D8FAA3F00326473 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A03813171D8FAA3F00326473 /* Tablas de Multiplicar */;
+			targetProxy = A03813381D8FAA3F00326473 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A038131F1D8FAA3F00326473 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A03813201D8FAA3F00326473 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A03813241D8FAA3F00326473 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A03813251D8FAA3F00326473 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A038133E1D8FAA3F00326473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A038133F1D8FAA3F00326473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A03813411D8FAA3F00326473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tablas de Multiplicar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luis.enrique.Tablas-de-Multiplicar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A03813421D8FAA3F00326473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tablas de Multiplicar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luis.enrique.Tablas-de-Multiplicar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A03813441D8FAA3F00326473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tablas de MultiplicarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luis.enrique.Tablas-de-MultiplicarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tablas de Multiplicar.app/Tablas de Multiplicar";
+			};
+			name = Debug;
+		};
+		A03813451D8FAA3F00326473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tablas de MultiplicarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luis.enrique.Tablas-de-MultiplicarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tablas de Multiplicar.app/Tablas de Multiplicar";
+			};
+			name = Release;
+		};
+		A03813471D8FAA3F00326473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Tablas de MultiplicarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luis.enrique.Tablas-de-MultiplicarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Tablas de Multiplicar";
+			};
+			name = Debug;
+		};
+		A03813481D8FAA3F00326473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Tablas de MultiplicarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luis.enrique.Tablas-de-MultiplicarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Tablas de Multiplicar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A03813131D8FAA3F00326473 /* Build configuration list for PBXProject "Tablas de Multiplicar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A038133E1D8FAA3F00326473 /* Debug */,
+				A038133F1D8FAA3F00326473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A03813401D8FAA3F00326473 /* Build configuration list for PBXNativeTarget "Tablas de Multiplicar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03813411D8FAA3F00326473 /* Debug */,
+				A03813421D8FAA3F00326473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A03813431D8FAA3F00326473 /* Build configuration list for PBXNativeTarget "Tablas de MultiplicarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03813441D8FAA3F00326473 /* Debug */,
+				A03813451D8FAA3F00326473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A03813461D8FAA3F00326473 /* Build configuration list for PBXNativeTarget "Tablas de MultiplicarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03813471D8FAA3F00326473 /* Debug */,
+				A03813481D8FAA3F00326473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A03813101D8FAA3F00326473 /* Project object */;
+}
